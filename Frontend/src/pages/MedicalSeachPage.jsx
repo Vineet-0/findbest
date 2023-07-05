@@ -10,7 +10,7 @@ const MedicalSeachPage = () => {
     try {
       console.log(searchInput);
       const response = await axios.get(
-        ` https://backend-server-zeta.vercel.app/api/medicine/${searchInput}`
+        `https://findbest.onrender.com/api/medicine/${searchInput}`
       );
       setSearchResults(response.data);
       console.log(response.data);

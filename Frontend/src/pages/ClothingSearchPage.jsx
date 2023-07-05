@@ -10,7 +10,7 @@ const ClothingSearchPage = () => {
     try {
       console.log(searchInput);
       const response = await axios.get(
-        ` https://backend-server-zeta.vercel.app/api/clothing/${searchInput}`
+        `https://findbest.onrender.com/api/clothing/${searchInput}`
       );
       setSearchResults(response.data);
       console.log(response.data);

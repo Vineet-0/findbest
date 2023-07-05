@@ -10,7 +10,7 @@ const SmartPhoneSearchPage = () => {
     try {
       console.log(searchInput);
       const response = await axios.get(
-        ` https://backend-server-zeta.vercel.app/api/smartphone/${searchInput}`
+        `https://findbest.onrender.com/api/smartphone/${searchInput}`
       );
       setSearchResults(response.data);
       console.log(searchResults);
