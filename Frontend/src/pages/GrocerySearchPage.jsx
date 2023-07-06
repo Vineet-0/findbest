@@ -21,7 +21,7 @@ const GrocerySeachPage = () => {
 
   return (
     <div className="min-h-[100vh] bg-amber-100 text-center">
-      <h1 className="text-5xl font-bold pt-20 pb-5 text-amber-600">Grocery Search</h1>
+      <h1 className="text-5xl font-bold pt-24 pb-5 text-amber-600">Grocery Search</h1>
       <input
         type="text"
         value={searchInput}

@@ -21,7 +21,7 @@ const SmartPhoneSearchPage = () => {
 
   return (
     <div className="min-h-[100vh] bg-blue-100 text-center">
-      <h1 className="text-5xl font-bold pt-20 pb-5 text-blue-600">Smart Phone Search</h1>
+      <h1 className="text-5xl font-bold pt-24 pb-5 text-blue-600">Smart Phone Search</h1>
       <input
         type="text"
         value={searchInput}

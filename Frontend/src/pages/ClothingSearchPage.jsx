@@ -21,7 +21,7 @@ const ClothingSearchPage = () => {
 
   return (
     <div className="min-h-[100vh] bg-pink-100 text-center">
-      <h1 className="text-5xl font-bold pt-20 pb-5 text-pink-600">Clothing Search</h1>
+      <h1 className="text-5xl font-bold pt-24 pb-5 text-pink-600">Clothing Search</h1>
       <input
         type="text"
         value={searchInput}

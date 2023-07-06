@@ -21,7 +21,7 @@ const MedicalSeachPage = () => {
 
   return (
     <div className="min-h-[100vh] bg-green-100 text-center">
-      <h1 className="text-5xl font-bold pt-20 pb-5 text-sky-900">Medicine Search</h1>
+      <h1 className="text-5xl font-bold pt-24 pb-5 text-sky-900">Medicine Search</h1>
       <input
         type="text"
         value={searchInput}
