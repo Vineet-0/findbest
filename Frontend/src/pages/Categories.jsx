@@ -41,17 +41,17 @@ const Areas = () => {
                                 )}
                         </div>
                         <div className="w-full">
-                                <button className="bg-stone-300 hover:bg-sky-900 hover:text-white lg:w-1/2 md:w-3/5 w-4/5  text-md p-3 rounded-full">
-                                  <Link
+                              <Link
                                     className="btn"
                                     to={{
                                       pathname: `/search-page/${value}`,
                                       value,
                                     }}
                                   >
+                                  <button className="bg-stone-300 hover:bg-sky-900 hover:text-white lg:w-1/2 md:w-3/5 w-4/5  text-md p-3 rounded-full">
                                     SUBMIT
-                                  </Link>
                                 </button>
+                              </Link>
                         </div>
       </div>
     </div>
